@@ -1,13 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Akronim&display=swap');
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* @font-face {
+  font-family: "Akronim";
+  src: url();
+} */
+
+/* @font-face {
+  font-family: "Abel";
+  src: url('');
+} */
+
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  @apply font-Abel bg-black text-white
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+nav {
+  @apply flex flex-col md:flex-row md:justify-between md:items-center px-4 md:px-8 lg:px-24 py-4 text-white
+}
+
+hr {
+  @apply text-[#51516D] border-[#51516D]
+}
+
+nav ul {
+  @apply bg-[#51516D] p-4 md:bg-none md:bg-transparent
+}
+
+nav li {
+  @apply p-4 my-2 md:p-0 my-0 hover:bg-white md:hover:bg-transparent md:hover:bg-none md:hover:text-[#51516D] hover:text-black
+}
+
+.hero {
+  @apply flex flex-col md:flex-row gap-6 items-center px-4 md:px-12 lg:px-24 py-12 lg:py-24
+}
+
+.hero img, .hero .hero-text {
+  @apply w-full text-white font-Abel
+}
+
+.hero img {
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+}
+
+.hero-text h1 {
+  @apply text-[44px] md:text-[72px] leading-none my-2 md:my-6
+}
+
+.hero-text {
+  @apply pt-12
+}
+
+.hero-text p {
+  @apply mb-4 text-[20px]
+}
+
+.hero-text a {
+  @apply px-6 py-2 rounded 
+}
+
+.projects {
+  @apply grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 lg:gap-6
+}
+
+.controls {
+  @apply grid grid-cols-2 gap-4 w-full mb-6 
+}
+
+.controls button {
+  @apply py-2 font-Abel hover:bg-white hover:text-black
+}
+
+.project {
+  @apply h-[200px] overflow-y-hidden hover:shadow hover:scale-105 relative
+}
+
+
+.project .project-details {
+  @apply absolute bottom-0 right-0 left-0 bg-[#51516D] rounded-t-2xl hidden text-white p-2 z-50
+}
+
+.project:hover .project-details {
+  @apply block
+}
+
+.project img {
+  @apply w-full h-fit
+}
+
+.about {
+  @apply text-white flex flex-col md:flex-row gap-4 px-4 md:px-12 lg:px-24 items-center
+}
+
+.about div {
+  @apply w-full md:w-1/2
+}
+
+h2 {
+  @apply text-[48px] font-Akronim
+}
+
+.about div p {
+  @apply my-4
+}
+
+.contact, .stacks, .testimonials {
+  @apply px-4 md:px-12 lg:px-24 py-12 flex flex-col justify-center items-center
+}
+
+.contacts {
+  @apply flex flex-col md:flex-row gap-6 mt-8 w-full
+}
+
+.contacts div, .contacts form {
+  @apply w-full md:w-1/2
+}
+
+.contacts div p a {
+  @apply flex gap-2 items-center
+}
+
+.contacts form {
+  @apply flex flex-col gap-4
+}
+
+.contacts form input {
+  @apply h-[40px] px-2 rounded text-black
+}
+
+.contacts form textarea {
+  @apply h-[150px] resize-none p-2 text-black
+}
+
+.contacts form button {
+  @apply bg-[#51516D] h-[40px] rounded text-white
+}
+
+.single {
+  @apply bg-[#51516D] flex items-center justify-center text-white rounded gap-2 hover:bg-white hover:text-black
+}
+
+.loader img {
+  @apply rounded-full border-2 border-white
+}
+
+.quote {
+  @apply flex flex-col items-center font-bold rounded shadow-2xl p-6 w-11/12 text-white md:w-3/5 text-center
+}
+
+.quote img {
+  @apply w-[100px] h-[100px] rounded-full -mt-[70px]
+}
+
+.quote q {
+  @apply my-4
+}
+
+.quote h4 {
+  @apply font-Akronim text-[24px] leading-none
 }

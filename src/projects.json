@@ -1,0 +1,165 @@
+{
+  "web": [
+    {
+      "id": 1,
+      "name": "FoodTuck Food Order App",
+      "image": "foodtuck.png",
+      "screenshot": "",
+      "description": "This is a fully functional food order app that allows users to register, make food selection, make payment using Flutterwave or PayStack",
+      "live": "https://foodtucks.web.app",
+      "repo": "https://github.com/zeekielcodes/foodapp",
+      "category": ["e-commerce"],
+      "features": [
+        "Add to Cart",
+        "Add to Wishlist",
+        "Checkout",
+        "Payment",
+        "Sign in/Sign up",
+        "Google Sign-in",
+        "Coupons integration"
+      ],
+      "techUsed": ["HTML", "Tailwind CSS", "React", "TypeScript", "Firebase"]
+    },
+    {
+      "id": 2,
+      "name": "Coral Store",
+      "image": "coral.png",
+      "screenshot": "",
+      "description": "This is an e-commerce store, it allows you to select desired items, add them to cart or wishlist and checkout",
+      "live": "https://coral-store.web.app",
+      "repo": "https://github.com/zeekielcodes/coral-store",
+      "category": ["e-commerce", "api"],
+      "features": [
+        "Add to Cart",
+        "Add to Wishlist",
+        "Search",
+        "Sign in/Sign up",
+        "Google Sign-in"
+      ],
+      "techUsed": ["HTML", "Tailwind CSS", "Nuxt JS", "Firebase"]
+    },
+    {
+      "id": 3,
+      "name": "DevsPal - An AI-Powered chatbot",
+      "image": "devspal.png",
+      "screenshot": "",
+      "description": "This is a ChatGPT-like AI-Powered chatbot - made for developers as alternative to use during ChatGPT's frequent downtime.",
+      "live": "https://devspal.web.app",
+      "repo": "https://github.com/zeekielcodes/devspal",
+      "category": ["api", "chatbot"],
+      "features": ["Sign in", "Sign up", "Google Sign-in"],
+      "techUsed": [
+        "HTML",
+        "Tailwind CSS",
+        "React",
+        "Firebase",
+        "GPT-3 OpenAI API"
+      ]
+    },
+
+    {
+      "id": 4,
+      "name": "Trasave Landing Page",
+      "image": "trasave.png",
+      "screenshot": "",
+      "description": "This is a landing page prototype that tells visitors about the business/brand",
+      "live": "https://trasave-theface.netlify.app",
+      "repo": "https://github.com/zeekielcodes/trasave",
+      "category": ["landing"],
+      "features": [],
+      "techUsed": ["HTML", "Tailwind CSS"]
+    },
+    {
+      "id": 5,
+      "name": "J Store",
+      "image": "jstore.png",
+      "screenshot": "",
+      "description": "This is an e-commerce clothing store, it allows you to select desired dresses, add them to cart or wishlist and checkout",
+      "live": "https://jstore-theface.netlify.app",
+      "repo": "https://github.com/zeekielcodes/jstore",
+      "category": ["e-commerce"],
+      "features": ["Add to Cart", "Add to Wishlist", "Store products filters"],
+      "techUsed": ["HTML", "CSS", "Vue JS"]
+    },
+    {
+      "id": 6,
+      "name": "Noted Notes App",
+      "image": "noted.png",
+      "screenshot": "",
+      "description": "This is a notes app that allows you to keep track of important deideas or occurences.",
+      "live": "https://notednotes.vercel.app",
+      "repo": "https://github.com/zeekielcodes/notednotes",
+      "category": "",
+      "features": ["Add new notes", "Edit notes", "Sign in/Sign up"],
+      "techUsed": ["HTML", "Tailwind CSS", "Next JS"]
+    }
+  ],
+
+  "app": [
+    {
+      "id": 1,
+      "name": "TF Vids - Movies Library App",
+      "image": "tfvids.png",
+      "screenshot": "",
+      "description": "This is a movie library app, it allows users to select, search and download movies of their choice.",
+      "live": "https://expo.dev/@thefacecodes/tfvids",
+      "repo": "https://github.com/zeekielcodes/tfvids",
+      "category": ["api", "movies"],
+      "features": [],
+      "techUsed": ["React Native", "Tailwind CSS"],
+      "preview": "https://twitter.com/zeekcodes/status/1634275638684033026"
+    },
+    {
+      "id": 2,
+      "name": "Foodtuck - Mobile Food Order App",
+      "image": "foodtucks.png",
+      "screenshot": "",
+      "description": "This is a restaurant app - allows users to select food choices and quantity, add them to cart and checkout.",
+      "live": "https://expo.dev/@thefacecodes/foodtucks",
+      "repo": "https://github.com/zeekielcodes/foodtuck",
+      "category": ["food", "e-commerce"],
+      "features": [],
+      "techUsed": ["React Native", "Tailwind CSS"],
+      "preview": "https://twitter.com/zeekcodes/status/1628464603712655360"
+    },
+    {
+      "id": 3,
+      "name": "DevsPal - Mobile App chatbot",
+      "image": "devspal-app.png",
+      "screenshot": "",
+      "description": "This is a ChatGPT-like AI-Powered Mobile App chatbot - made for developers as alternative to use during ChatGPT's frequent downtime.",
+      "live": "https://expo.dev/@thefacecodes/mypal",
+      "repo": "https://github.com/zeekielcodes/devspal-app",
+      "category": ["api", "chatbot"],
+      "features": [],
+      "techUsed": ["React Native", "Tailwind CSS", "GPT-3 OpenAI API"],
+      "preview": "https://twitter.com/zeekcodes/status/1631361689202335744"
+    },
+    {
+      "id": 4,
+      "name": "Soul - Fitness App",
+      "image": "soul.png",
+      "screenshot": "",
+      "description": "This is a fitness app - it provides you with excercises to commit to when trying to build or improve any body part.",
+      "live": "https://expo.dev/@thefacecodes/fitness",
+      "repo": "https://github.com/zeekielcodes/soul-fitness",
+      "category": ["api", "fitness"],
+      "features": [],
+      "techUsed": ["React Native", "Tailwind CSS"],
+      "preview": "https://twitter.com/zeekcodes/status/1632814431439663104"
+    },
+    {
+      "id": 5,
+      "name": "Noted - Notes App",
+      "image": "noted-app.png",
+      "screenshot": "",
+      "description": "This is a notes app that allows you to keep track of important deideas or occurences.",
+      "live": "https://expo.dev/@thefacecodes/noted",
+      "repo": "https://github.com/zeekielcodes/noted-app",
+      "category": [],
+      "features": [],
+      "techUsed": ["React Native", "Tailwind CSS"],
+      "preview": "https://twitter.com/zeekcodes/status/1633542132458766336"
+    }
+  ]
+}
