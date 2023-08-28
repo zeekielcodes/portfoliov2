@@ -75,13 +75,13 @@ function Contact() {
             <a href="https://wa.me/qr/YALRGMUPOL3YK1">
               <BsWhatsapp className="text-[24px]" />
             </a>
-            <a href="https://instagram.com/heistheface">
+            <a href="https://instagram.com/zeekcodes">
               <BsInstagram className="text-[24px]" />
             </a>
             <a href="https://linkedin.com/in/ezekiel-abolade">
               <BsLinkedin className="text-[24px]" />
             </a>
-            <a href="https://github.com/thefacecodes">
+            <a href="https://github.com/zeekielcodes">
               <BsGithub className="text-[24px]" />
             </a>
           </div>

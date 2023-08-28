@@ -83,6 +83,18 @@
     },
     {
       "id": 6,
+      "name": "TFBooks - A Book App",
+      "image": "tfbooks.png",
+      "screenshot": "",
+      "description": "This is a web app that gives you access to download popular ebooks that I have for free.",
+      "live": "https://tfbooks.vercel.app",
+      "repo": "https://github.com/zeekielcodes/tfbooks",
+      "category": "",
+      "features": ["Download", "Star"],
+      "techUsed": ["HTML", "Tailwind CSS", "Next JS", "Sanity"]
+    },
+    {
+      "id": 7,
       "name": "Noted Notes App",
       "image": "noted.png",
       "screenshot": "",

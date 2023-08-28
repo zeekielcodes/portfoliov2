@@ -1,5 +1,5 @@
 import React from "react";
-import resume from "../assets/images/myResume.pdf";
+import resume from "../assets/images/EzekielResume.pdf";
 
 function Hero() {
   return (
@@ -12,7 +12,7 @@ function Hero() {
         <p>A Frontend Web and Mobile App Developer</p>
         <div className="flex gap-4">
           <a
-            href="https://drive.google.com/file/d/1XNR5UaGsFO6gIu1e4_qd4wFPQKKo4GMn/view?usp=sharing"
+            href="https://drive.google.com/file/d/1XV_Df1Xk0uH6kj17ztNbDWLpIyzYrDqr/view?usp=drive_link"
             className="bg-white hover:bg-[#51516D] hover:text-white text-[#51516D]"
           >
             View Resume
